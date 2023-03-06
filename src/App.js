@@ -3,22 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <h1>Heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>Heading 3</h3>
+    <img src="https://st1.bollywoodlife.com/wp-content/uploads/2014/07/yo-yo-honey-singh-5a.jpg?impolicy=Medium_Widthonly&w=1280&h=900" alt="" />
+   </div>
   );
 }
 
